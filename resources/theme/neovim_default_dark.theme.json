@@ -4,20 +4,25 @@
   "author": "Yannik Peschke",
   "editorScheme": "/neovim_default_dark.xml",
   "colors": {
-    "basicBackground": "#ff0000"
+    "testKey": "#ff00ff",
+    "white": "#e1e4eb",
+    "gold": "#f7db95",
+    "cyan": "#adf3f7",
+    "backgroundDark": "#010205",
+    "backgroundDefault": "#0c0f14",
+    "grayDark": "#2c2e33",
+    "grayMedium": "#4f5258"
   },
   "ui": {
     "*": {
-      "background": "#0c0f14",
-      "foreground": "#e1e4eb",
-      "selectionBackground": "#4f5258",
-      "selectionForeground": "#e1e4eb",
-      "selectionInactiveBackground": "#2c2e33",
-      "selectionInactiveForeground": "#e1e4eb"
-    },
-    "Label.foreground": "#3959CC",
-    "Label.background": "#F6E9C9",
-    "Panel.background": "basicBackground",
-    "Window.border": "4,4,4,4,E6E6E6"
+      "background": "backgroundDark",
+      "foreground": "white",
+      "infoForeground": "gold",
+      "successForeground": "testKey",
+      "selectionBackground": "testKey",
+      "selectionForeground": "testKey",
+      "selectionInactiveBackground": "testKey",
+      "selectionBackgroundInactive": "testKey"
+    }
   }
 }
