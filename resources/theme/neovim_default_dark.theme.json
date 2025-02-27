@@ -1,0 +1,23 @@
+{
+  "name": "neovim-default-dark",
+  "dark": true,
+  "author": "Yannik Peschke",
+  "editorScheme": "/neovim_default_dark.xml",
+  "colors": {
+    "basicBackground": "#ff0000"
+  },
+  "ui": {
+    "*": {
+      "background": "#0c0f14",
+      "foreground": "#e1e4eb",
+      "selectionBackground": "#4f5258",
+      "selectionForeground": "#e1e4eb",
+      "selectionInactiveBackground": "#2c2e33",
+      "selectionInactiveForeground": "#e1e4eb"
+    },
+    "Label.foreground": "#3959CC",
+    "Label.background": "#F6E9C9",
+    "Panel.background": "basicBackground",
+    "Window.border": "4,4,4,4,E6E6E6"
+  }
+}
